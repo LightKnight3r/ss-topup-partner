@@ -1,0 +1,35 @@
+{
+  "name": "ss-business-service",
+  "version": "1.0.0",
+  "description": "HeyU service for topup partners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js --presets es2015"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/tuanhm/sanship-handle-order.git"
+  },
+  "author": "tuanhm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tuanhm/sanship-handle-order/issues"
+  },
+  "homepage": "https://gitlab.com/tuanhm/sanship-handle-order#README",
+  "dependencies": {
+    "async": "^2.6.0",
+    "config": "^1.30.0",
+    "express": "^4.16.3",
+    "joi-objectid": "^2.0.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.0.17",
+    "ms": "^2.1.1",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "validator": "^10.11.0",
+    "winston": "^2.4.2",
+    "winston-daily-rotate-file": "^3.1.3"
+  }
+}
